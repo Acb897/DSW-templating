@@ -1,0 +1,44 @@
+{
+    "templateId": "generictemplate",
+    "organizationId": "dsw",
+    "version": "0.1.0",
+    "name": "GenericTemplate",
+    "description": "Generic template",
+    "license": "CC0",
+    "metamodelVersion": 8,
+    "recommendedPackageId": null,
+    "allowedPackages": [
+        {
+            "orgId": null,
+            "kmId": null,
+            "minVersion": null,
+            "maxVersion": null
+        }
+    ],
+    "formats": [
+        {
+            "uuid": "c13f6d54-aa7f-4e2e-ae7a-37e744ccbf17",
+            "name": "HTML",
+            "shortName": "html",
+            "icon": "fas fa-file",
+            "color": "#f15722",
+            "steps": [
+                {
+                    "name": "jinja",
+                    "options": {
+                        "template": "src/template.html.j2",
+                        "content-type": "text/html",
+                        "extension": "html"
+                    }
+                }
+            ]
+        }
+    ],
+    "_tdk": {
+        "version": "3.9.0",
+        "readmeFile": "README.md",
+        "files": [
+            "src/template.html.j2"
+        ]
+    }
+}
